@@ -1,0 +1,10 @@
+server:
+  port: 1100
+spring:
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
